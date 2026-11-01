@@ -60,13 +60,19 @@ Good debugging follows the same order every time: understand the code, investiga
 
 ### 1. Understand (4 min)
 
-Before you chase the bug, learn how the score gets calculated. In your Copilot terminal, submit:
+Before you chase the bug, learn how the score gets calculated. In your Copilot terminal, submit this as **one** message:
 
 ```
-Explain how @lab-ghcp-cli/quiz.py and @lab-ghcp-cli/utils.py work together to score the quiz. Then add docstrings to every function that's missing one.
+Explain how @lab-ghcp-cli/quiz.py and @lab-ghcp-cli/utils.py work together to score the quiz.
 ```
 
-> 💡 After typing `@`, start the file name and press **Tab** to pick it from the list.
+> 💡 After typing `@`, start the file name and press **Tab** to pick it from the list. You can mention both files in the same message.
+
+When Copilot finishes explaining, submit:
+
+```
+Add docstrings to every function in @lab-ghcp-cli/quiz.py and @lab-ghcp-cli/utils.py that's missing one.
+```
 
 Review the docstrings before approving. Do they match what you'd expect each function to do?
 
