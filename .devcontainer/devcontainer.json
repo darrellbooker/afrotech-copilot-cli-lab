@@ -1,0 +1,18 @@
+{
+  "name": "AFROTECH 2026 Copilot CLI Lab",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install --no-cache-dir pytest && npm install -g @github/copilot",
+  "postAttachCommand": "code lab-ghcp-cli/README.md",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-python.python"
+      ]
+    }
+  }
+}
