@@ -1,6 +1,6 @@
 # AFROTECH 2026: GitHub Copilot CLI Lab
 
-A 30-minute hands-on workshop for AFROTECH 2026 in Houston. You'll play a quiz game, discover that its scoring is broken, and use **GitHub Copilot CLI** to understand the code, investigate the bug, prove it with a failing test, and fix it.
+A 30-minute hands-on workshop for AFROTECH 2026 in Houston. You'll play a quiz game, discover areas of improvement, and use **GitHub Copilot CLI** to understand the code, investigate, test, and improve it.
 
 ## Get Started
 
